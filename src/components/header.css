@@ -1,0 +1,147 @@
+ .app__header {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 100px;
+    z-index: 0;
+}
+
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+    width: 600px;
+}
+
+
+.app__wrapper_img img {
+    width: 400px;
+}
+
+
+.p__opensans {
+    color: gray;
+    max-width: 400px;
+    letter-spacing: 1px;
+} 
+
+
+.custom__button {
+    padding: 10px 25px;
+    background-color: rgb(255, 119, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.p__cormorant {
+    color: white;
+    font-size: 20px;
+}
+
+.subhimg {
+    margin-top: 4px;
+}
+
+
+@media screen and (max-width: 1115px) {
+    .app__header-h1 {
+        font-size: 70px;
+        width: 400px;
+        line-height: 87px;
+    }
+    .app__wrapper_img img {
+        width: 370px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .app__header-h1 {
+        font-size: 50px;
+        width: 300px;
+        line-height: 70px;
+    }
+    .app__wrapper_img img {
+        width: 300px;
+    }
+    .p__opensans {
+        color: gray;
+        max-width: 300px;
+        letter-spacing: 1px;
+    } 
+}
+
+@media screen and (max-width: 680px) {
+    .app__header-h1 {
+        font-size: 40px;
+        width: 250px;
+        line-height: 60px;
+    }
+    .app__wrapper_img img {
+        width: 250px;
+    }
+    .p__opensans {
+        color: gray;
+        max-width: 200px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    } 
+    .p__cormorant {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .app__header-h1 {
+        font-size: 30px;
+        width: 200px;
+        line-height: 50px;
+    }
+    .app__wrapper_img img {
+        width: 200px;
+    }
+    .p__opensans {
+        color: gray;
+        max-width: 160px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    } 
+    .p__cormorant {
+        color: white;
+        font-size: 12px;
+    }
+    .custom__button {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .app__header-h1 {
+        font-size: 20px;
+        width: 120px;
+        line-height: 25px;
+    }
+    .app__wrapper_img img {
+        width: 170px;
+    }
+    .p__opensans {
+        color: gray;
+        max-width: 160px;
+        letter-spacing: 1px;
+        font-size: 8px;
+    } 
+    .p__cormorant {
+        color: white;
+        font-size: 10px;
+    }
+    .custom__button {
+        padding: 7px 12px;
+    }
+}
